@@ -1,0 +1,28 @@
+{
+  "name": "apostrophe-favicon",
+  "version": "1.0.0",
+  "description": "Favicons for an ApostropheCMS site",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/punkave/apostrophe-favicon.git"
+  },
+  "keywords": [
+    "ApostropheCMS",
+    "SEO",
+    "favicons",
+    "favicon"
+  ],
+  "author": "P'unk Ave",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/punkave/apostrophe-seo/issues"
+  },
+  "homepage": "https://github.com/punkave/apostrophe-seo#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-punkave": "^1.0.10",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}

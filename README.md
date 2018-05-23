@@ -19,8 +19,8 @@ var apos = require('apostrophe')({
   modules: {
 
     // ...
-    'apostrophe-favicon': {},
-    'apostrophe-favicon-global': {
+    'apostrophe-favicons': {},
+    'apostrophe-favicons-global': {
       destinationDir: '/fav/',
       // Defaults to `/favicons/`. This is an uploadfs path, it will become /uploads/favicons/ on a server
 

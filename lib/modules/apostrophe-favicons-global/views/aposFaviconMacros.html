@@ -1,0 +1,5 @@
+{% macro renderLinks(apos, global) %}
+  {% if not apos.areas.isEmpty(global, 'aposFavicon') %}
+    {{ global.aposFaviconLinks | safe }}
+  {% endif %}
+{% endmacro %}

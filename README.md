@@ -39,3 +39,15 @@ var apos = require('apostrophe')({
   }
 });
 ```
+### Outputting the link tags
+After you have selected and generated your favicons, you can use the following macro to output the markup into your template.
+
+```html
+<!-- in layout.html or something -->
+{% extends "outerLayoutBase.html" %}
+{% import 'apostrophe-favicons:faviconMacros.html' as favicons %}
+...
+{% block extraHead %}
+  {{ favicons.renderLinks(apos, data.global) }}
+{% endblock %}
+```

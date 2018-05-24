@@ -8,6 +8,10 @@ Apostrophe module that leverages the [`favicons`](https://github.com/evilebottna
 The image libraries that the `favicons` leverages are pure Javascript implementations. Selecting large files will see significant busy time as Apostrophe works through the crops.
 
 ### Install
+Some flavors of linux don't come pre bundled with `bzip2`, which you'll need for a sub dependency
+`> yum install bzip2`
+
+and then 
 `> npm install apostrophe-favicons`
 
 ### Example config

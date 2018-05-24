@@ -11,7 +11,7 @@ The image libraries that the `favicons` leverages are pure Javascript implementa
 Some flavors of linux don't come pre bundled with `bzip2`, which you'll need for a sub dependency
 ```> yum install bzip2```
 
-and then 
+and then
 ```> npm install apostrophe-favicons```
 
 ### Example config

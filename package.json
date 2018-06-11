@@ -1,6 +1,6 @@
 {
   "name": "apostrophe-favicons",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Favicons for an ApostropheCMS site",
   "main": "index.js",
   "repository": {

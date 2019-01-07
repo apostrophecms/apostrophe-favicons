@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.1
+
+* Restored compatibility with `apostrophe-multisite`, which was broken in `1.1.0` due to the use of tasks; tasks with multisite must take the `--site=id` option.
+
 ## 1.1.0
 
 * Progress is now displayed via the new server-side support for `apos.notify` in Apostrophe. Note that Apostrophe must be at least version 2.73.0.

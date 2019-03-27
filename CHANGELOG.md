@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.1
+
+* Fixes a bug caused by picking an SVG from the media library. Favicons can now be generated from SVGs
+
+* Fixes a bug where favicon processing was running more than neccessary. This was specifically seen when using in conjunction with `apostrophe-workflow` (and potentially `apostrophe-palette`). Now we store the last good image relationship as a string on the global doc for more consistent comparison.
+
 ## 1.1.0
 
 * Progress is now displayed via the new server-side support for `apos.notify` in Apostrophe. Note that Apostrophe must be at least version 2.73.0.

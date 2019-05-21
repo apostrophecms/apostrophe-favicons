@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.3
+
+Do not crash if the temp dir already exists.
+
 ## 1.1.2
 
 * Fixes a bug caused by picking an SVG from the media library. Favicons can now be generated from SVGs

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.4
+
+Do not crash if the aposFavicon property does not exist.
+
 ## 1.1.3
 
 Do not crash if the temp dir already exists.

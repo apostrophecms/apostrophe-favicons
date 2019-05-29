@@ -1,3 +1,5 @@
+console.log('INITIATING');
+
 module.exports = {
   extend: 'apostrophe-module',
   moogBundle: {

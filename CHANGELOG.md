@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.5
+
+Play nicely with `apostrophe-multisite`, don't get involved at asset bundle generation time.
+
 ## 1.1.4
 
 Do not crash if the aposFavicon property does not exist.

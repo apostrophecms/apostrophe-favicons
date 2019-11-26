@@ -2,17 +2,14 @@
 ## Editor-controlled favicon generator of various formats. Automatic handling of their link tags.
 
 ### Overview
-Apostrophe module that leverages the [`favicons`](https://github.com/evilebottnawi/favicons) library for generating a number of differently sized favicon image formats. The image itself is an `apostrophe-images` widget that gets appended to the `apostrophe-global`, which is easily manipulated by an editor.
+
+Apostrophe module that generates a number of differently sized favicon image formats. The image itself is an `apostrophe-images` widget that gets appended to the `apostrophe-global`, which is easily manipulated by an editor.
+
+Unlike version 1.x, this module uses `imagemagick` to perform image conversions. This is a standard prerequisite for the use of ApostropheCMS with good performance when uploading images, so you should already have it installed in both dev and production environments. See the [getting started guide](https://docs.apostrophecms.org/apostrophe/getting-started/setting-up-your-environment#install-imagemagick) and the [production guide](https://docs.apostrophecms.org/apostrophe/apostrophe-devops/deployment/deployment).
+
 
 ### Note
-The image libraries that the `favicons` leverages are pure Javascript implementations. Selecting large files will see significant busy time as Apostrophe works through the crops.
-
-### Install
-Some flavors of linux don't come pre bundled with `bzip2`, which you'll need for a sub dependency
-```> yum install bzip2```
-
-and then
-```> npm install apostrophe-favicons```
+Performance is much better than 1.x, however there are no options to pass on to the `favicon` npm module because we do not use it.
 
 ### Example config
 in `app.js`
@@ -22,19 +19,12 @@ var apos = require('apostrophe')({
   shortName: 'yourSite',
   modules: {
 
-    // ...
+    // Enable the module, enhances apostrophe-global
     'apostrophe-favicons': {},
-    'apostrophe-favicons-global': {
-      destinationDir: '/fav/',
+    // Now apostrophe-global has some new options 
+    'apostrophe-global': {
+      faviconDestinationDir: '/fav/',
       // Defaults to `/favicons/`. This is an uploadfs path, it will become /uploads/favicons/ on a server
-
-      faviconConfig : {
-        icons: {
-          windows: false
-        }
-      }
-      // Configuration for favicon module, see options here https://github.com/evilebottnawi/favicons#usage
-      // **NOTE** The `path` option is automatically figured out by the module, no need to set it.
     }
 
   }

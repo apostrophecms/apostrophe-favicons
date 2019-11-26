@@ -1,6 +1,6 @@
 {
   "name": "apostrophe-favicons",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Favicons for an ApostropheCMS site",
   "main": "index.js",
   "repository": {
@@ -28,6 +28,9 @@
     "eslint": "^4.19.1",
     "eslint-config-punkave": "^1.0.10",
     "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^3.0.1"
   },
   "dependencies": {

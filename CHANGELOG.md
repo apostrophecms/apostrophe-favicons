@@ -1,5 +1,17 @@
 # Changelog
 
+## 2.0.2
+
+Fixed bug relating to behavior when the working folder does not yet exist. Thanks to Kalia at swiss4ward for reporting the issue.
+
+## 2.0.1
+
+eslint dependencies and eslint passing.
+
+## 2.0.0
+
+New release based on `imagemagick` rather than the `favicon` npm module. Much faster with minimized CPU impact. However it no longer takes the options that could formerly be passed to `favicon`, so the major version has been bumped.
+
 ## 1.1.5
 
 Play nicely with `apostrophe-multisite`, don't get involved at asset bundle generation time.

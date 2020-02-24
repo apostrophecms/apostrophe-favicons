@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.3
+
+Fixed bug relating to detecting that a new favicon image has been chosen.
+
 ## 2.0.2
 
 Fixed bug relating to behavior when the working folder does not yet exist. Thanks to Kalia at swiss4ward for reporting the issue.

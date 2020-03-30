@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/apostrophecms/apostrophe-3-upgrade-tools/tree/master.svg?style=svg)](https://circleci.com/gh/apostrophecms/apostrophe-3-upgrade-tools/tree/master)
+[![CircleCI](https://circleci.com/gh/apostrophecms/apostrophe-favicons/tree/master.svg?style=svg)](https://circleci.com/gh/apostrophecms/apostrophe-favicons/tree/master)
 
 # apostrophe-favicons
 ## Editor-controlled favicon generator of various formats. Automatic handling of their link tags.

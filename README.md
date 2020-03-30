@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/apostrophecms/apostrophe-favicons/tree/master.svg?style=svg)](https://circleci.com/gh/apostrophecms/apostrophe-favicons/tree/master)
+
 # apostrophe-favicons
 ## Editor-controlled favicon generator of various formats. Automatic handling of their link tags.
 
@@ -21,7 +23,7 @@ var apos = require('apostrophe')({
 
     // Enable the module, enhances apostrophe-global
     'apostrophe-favicons': {},
-    // Now apostrophe-global has some new options 
+    // Now apostrophe-global has some new options
     'apostrophe-global': {
       faviconDestinationDir: '/fav/',
       // Defaults to `/favicons/`. This is an uploadfs path, it will become /uploads/favicons/ on a server

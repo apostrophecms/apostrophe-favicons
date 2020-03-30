@@ -3,6 +3,9 @@
   "version": "2.0.3",
   "description": "Favicons for an ApostropheCMS site",
   "main": "index.js",
+  "scripts": {
+    "test": "npx eslint ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/apostrophecms/apostrophe-favicons.git"
@@ -12,7 +15,6 @@
     "apostrophe",
     "apostrophe-cms",
     "cms",
-    "content management",
     "content management system",
     "SEO",
     "favicons",
@@ -25,13 +27,13 @@
   },
   "homepage": "https://github.com/apostrophecms/apostrophe-favicons#readme",
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-punkave": "^1.0.10",
-    "eslint-config-standard": "^11.0.0-beta.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^10.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-apostrophe": "^3.1.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-standard": "^4.0.1"
   },
   "dependencies": {
     "async": "^2.6.1",

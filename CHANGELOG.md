@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.4
+
+Updates ESLint and fixes linting errors.
+
 ## 2.0.3
 
 Fixed bug relating to detecting that a new favicon image has been chosen.

@@ -1,6 +1,6 @@
 {
   "name": "apostrophe-favicons",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Favicons for an ApostropheCMS site",
   "main": "index.js",
   "scripts": {
@@ -12,15 +12,11 @@
   },
   "keywords": [
     "ApostropheCMS",
-    "apostrophe",
     "apostrophe-cms",
-    "cms",
-    "content management system",
     "SEO",
-    "favicons",
     "favicon"
   ],
-  "author": "P'unk Ave",
+  "author": "Apostrophe Technologies, Inc.",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/apostrophecms/apostrophe-favicons/issues"

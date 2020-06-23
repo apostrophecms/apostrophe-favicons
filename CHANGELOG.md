@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.5
+
+Previously committing a new favicon did not update the favicon seen while in draft mode. Since initially saving the global doc doesn't do it either in draft mode, this led editors to think the feature didn't work at all, although it was updating for logged-out users, or for live and preview modes.
+
+Starting in version 2.0.5, committing the favicon change in the global doc will immediately be visible in draft mode too. In a future release, we plan to support immediately seeing a favicon change when clicking "Save Changes" for the global doc, however this requires careful attention to backwards compatibility.
+
 ## 2.0.4
 
 Updates ESLint and fixes linting errors.

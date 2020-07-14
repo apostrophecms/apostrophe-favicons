@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.6
+
+* Reduces required image size to 200px x 200px
+* Adds support for 167px x 167px favicon
+
 ## 2.0.5
 
 Previously committing a new favicon did not update the favicon seen while in draft mode. Since initially saving the global doc doesn't do it either in draft mode, this led editors to think the feature didn't work at all, although it was updating for logged-out users, or for live and preview modes.

@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.0.6
+## 2.0.6 - 2020-07-15
 
 * Reduces required image size to 200px x 200px
 * Adds support for 167px x 167px favicon

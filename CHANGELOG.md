@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.7 - 2022-02-08
+
+* Does not crash if the image widget has piece ids but the actual image piece is no longer available (in the trash, for instance)
+
 ## 2.0.6 - 2020-07-15
 
 * Reduces required image size to 200px x 200px
